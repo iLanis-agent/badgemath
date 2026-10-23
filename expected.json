@@ -1,0 +1,962 @@
+{
+ "cases": [
+  {
+   "fn": "packs",
+   "args": [
+    "240",
+    "25"
+   ],
+   "expect": "The 240 attendees at 25 badges a pack take 10 packs, the last pack holding 15 badges."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "240",
+    "50"
+   ],
+   "expect": "The 240 attendees at 50 lanyards a bag take 5 bags, leaving 10 lanyards spare."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10",
+    "12.75",
+    "240"
+   ],
+   "expect": "The 10 packs at $12.75 a pack come to $127.50, $0.53 an attendee."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "240",
+    "8"
+   ],
+   "expect": "The 240 badges at 8 badges a minute take 30 minutes, 0 hours 30 minutes."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 attendee at 1 badge a pack takes 1 pack, the last pack holding 1 badge."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "250",
+    "25"
+   ],
+   "expect": "The 250 attendees at 25 badges a pack take 10 packs, the last pack holding 25 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 attendees at 1000 badges a pack take 1000 packs, the last pack holding 1000 badges."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 attendee at 1 lanyard a bag takes 1 bag, leaving 0 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "200",
+    "50"
+   ],
+   "expect": "The 200 attendees at 50 lanyards a bag take 4 bags, leaving 0 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 attendees at 1000 lanyards a bag take 1000 bags, leaving 0 lanyards spare."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 pack at $0.01 a pack comes to $0.01, $0.01 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 packs at $999.99 a pack come to $99999000.00, $100.00 an attendee."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 badge at 1 badge a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 badges at 1 badge a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 badges at 100 badges a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "590488",
+    "559"
+   ],
+   "expect": "The 590488 attendees at 559 badges a pack take 1057 packs, the last pack holding 184 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "844516",
+    "895"
+   ],
+   "expect": "The 844516 attendees at 895 badges a pack take 944 packs, the last pack holding 531 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "182918",
+    "413"
+   ],
+   "expect": "The 182918 attendees at 413 badges a pack take 443 packs, the last pack holding 372 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "904282",
+    "515"
+   ],
+   "expect": "The 904282 attendees at 515 badges a pack take 1756 packs, the last pack holding 457 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "202753",
+    "230"
+   ],
+   "expect": "The 202753 attendees at 230 badges a pack take 882 packs, the last pack holding 123 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "300540",
+    "292"
+   ],
+   "expect": "The 300540 attendees at 292 badges a pack take 1030 packs, the last pack holding 72 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "194336",
+    "511"
+   ],
+   "expect": "The 194336 attendees at 511 badges a pack take 381 packs, the last pack holding 156 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "290089",
+    "480"
+   ],
+   "expect": "The 290089 attendees at 480 badges a pack take 605 packs, the last pack holding 169 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "872097",
+    "626"
+   ],
+   "expect": "The 872097 attendees at 626 badges a pack take 1394 packs, the last pack holding 79 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "687030",
+    "737"
+   ],
+   "expect": "The 687030 attendees at 737 badges a pack take 933 packs, the last pack holding 146 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "229047",
+    "605"
+   ],
+   "expect": "The 229047 attendees at 605 badges a pack take 379 packs, the last pack holding 357 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "648482",
+    "757"
+   ],
+   "expect": "The 648482 attendees at 757 badges a pack take 857 packs, the last pack holding 490 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "152235",
+    "569"
+   ],
+   "expect": "The 152235 attendees at 569 badges a pack take 268 packs, the last pack holding 312 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "290186",
+    "195"
+   ],
+   "expect": "The 290186 attendees at 195 badges a pack take 1489 packs, the last pack holding 26 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "433536",
+    "965"
+   ],
+   "expect": "The 433536 attendees at 965 badges a pack take 450 packs, the last pack holding 251 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "96483",
+    "213"
+   ],
+   "expect": "The 96483 attendees at 213 badges a pack take 453 packs, the last pack holding 207 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "959911",
+    "676"
+   ],
+   "expect": "The 959911 attendees at 676 badges a pack take 1420 packs, the last pack holding 667 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "757795",
+    "712"
+   ],
+   "expect": "The 757795 attendees at 712 badges a pack take 1065 packs, the last pack holding 227 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "718479",
+    "811"
+   ],
+   "expect": "The 718479 attendees at 811 badges a pack take 886 packs, the last pack holding 744 badges."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "393581",
+    "644"
+   ],
+   "expect": "The 393581 attendees at 644 badges a pack take 612 packs, the last pack holding 97 badges."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "736720",
+    "740"
+   ],
+   "expect": "The 736720 attendees at 740 lanyards a bag take 996 bags, leaving 320 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "171592",
+    "320"
+   ],
+   "expect": "The 171592 attendees at 320 lanyards a bag take 537 bags, leaving 248 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "537649",
+    "820"
+   ],
+   "expect": "The 537649 attendees at 820 lanyards a bag take 656 bags, leaving 271 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "984368",
+    "215"
+   ],
+   "expect": "The 984368 attendees at 215 lanyards a bag take 4579 bags, leaving 117 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "41457",
+    "434"
+   ],
+   "expect": "The 41457 attendees at 434 lanyards a bag take 96 bags, leaving 207 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "871009",
+    "846"
+   ],
+   "expect": "The 871009 attendees at 846 lanyards a bag take 1030 bags, leaving 371 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "817118",
+    "248"
+   ],
+   "expect": "The 817118 attendees at 248 lanyards a bag take 3295 bags, leaving 42 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "871359",
+    "299"
+   ],
+   "expect": "The 871359 attendees at 299 lanyards a bag take 2915 bags, leaving 226 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "995025",
+    "501"
+   ],
+   "expect": "The 995025 attendees at 501 lanyards a bag take 1987 bags, leaving 462 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "296210",
+    "394"
+   ],
+   "expect": "The 296210 attendees at 394 lanyards a bag take 752 bags, leaving 78 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "501721",
+    "737"
+   ],
+   "expect": "The 501721 attendees at 737 lanyards a bag take 681 bags, leaving 176 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "263287",
+    "163"
+   ],
+   "expect": "The 263287 attendees at 163 lanyards a bag take 1616 bags, leaving 121 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "136391",
+    "790"
+   ],
+   "expect": "The 136391 attendees at 790 lanyards a bag take 173 bags, leaving 279 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "993949",
+    "470"
+   ],
+   "expect": "The 993949 attendees at 470 lanyards a bag take 2115 bags, leaving 101 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "6008",
+    "79"
+   ],
+   "expect": "The 6008 attendees at 79 lanyards a bag take 77 bags, leaving 75 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "274616",
+    "11"
+   ],
+   "expect": "The 274616 attendees at 11 lanyards a bag take 24966 bags, leaving 10 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "948456",
+    "664"
+   ],
+   "expect": "The 948456 attendees at 664 lanyards a bag take 1429 bags, leaving 400 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "494364",
+    "273"
+   ],
+   "expect": "The 494364 attendees at 273 lanyards a bag take 1811 bags, leaving 39 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "847773",
+    "621"
+   ],
+   "expect": "The 847773 attendees at 621 lanyards a bag take 1366 bags, leaving 513 lanyards spare."
+  },
+  {
+   "fn": "lanyard",
+   "args": [
+    "676691",
+    "836"
+   ],
+   "expect": "The 676691 attendees at 836 lanyards a bag take 810 bags, leaving 469 lanyards spare."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "7997",
+    "313.7",
+    "710312"
+   ],
+   "expect": "The 7997 packs at $313.70 a pack come to $2508658.90, $3.53 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "62922",
+    "589.79",
+    "862623"
+   ],
+   "expect": "The 62922 packs at $589.79 a pack come to $37110766.38, $43.02 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "88006",
+    "931.54",
+    "86615"
+   ],
+   "expect": "The 88006 packs at $931.54 a pack come to $81981109.24, $946.50 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "61175",
+    "37.04",
+    "494981"
+   ],
+   "expect": "The 61175 packs at $37.04 a pack come to $2265922.00, $4.58 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73096",
+    "260.45",
+    "496351"
+   ],
+   "expect": "The 73096 packs at $260.45 a pack come to $19037853.20, $38.36 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69320",
+    "437.81",
+    "439243"
+   ],
+   "expect": "The 69320 packs at $437.81 a pack come to $30348989.20, $69.09 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8030",
+    "484.54",
+    "425976"
+   ],
+   "expect": "The 8030 packs at $484.54 a pack come to $3890856.20, $9.13 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69056",
+    "476.97",
+    "569668"
+   ],
+   "expect": "The 69056 packs at $476.97 a pack come to $32937640.32, $57.82 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56708",
+    "524.9",
+    "838198"
+   ],
+   "expect": "The 56708 packs at $524.90 a pack come to $29766029.20, $35.51 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86877",
+    "832.93",
+    "955048"
+   ],
+   "expect": "The 86877 packs at $832.93 a pack come to $72362459.61, $75.77 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96888",
+    "430.23",
+    "834968"
+   ],
+   "expect": "The 96888 packs at $430.23 a pack come to $41684124.24, $49.92 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86098",
+    "930.86",
+    "306620"
+   ],
+   "expect": "The 86098 packs at $930.86 a pack come to $80145184.28, $261.38 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2908",
+    "261.04",
+    "576462"
+   ],
+   "expect": "The 2908 packs at $261.04 a pack come to $759104.32, $1.32 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "93943",
+    "137.02",
+    "519880"
+   ],
+   "expect": "The 93943 packs at $137.02 a pack come to $12872069.86, $24.76 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "64680",
+    "89.24",
+    "543572"
+   ],
+   "expect": "The 64680 packs at $89.24 a pack come to $5772043.20, $10.62 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "75823",
+    "758.18",
+    "510053"
+   ],
+   "expect": "The 75823 packs at $758.18 a pack come to $57487482.14, $112.71 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "35096",
+    "851.15",
+    "285419"
+   ],
+   "expect": "The 35096 packs at $851.15 a pack come to $29871960.40, $104.66 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "49119",
+    "671.05",
+    "722586"
+   ],
+   "expect": "The 49119 packs at $671.05 a pack come to $32961304.95, $45.62 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "46930",
+    "681.59",
+    "168808"
+   ],
+   "expect": "The 46930 packs at $681.59 a pack come to $31987018.70, $189.49 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "63642",
+    "745.92",
+    "851045"
+   ],
+   "expect": "The 63642 packs at $745.92 a pack come to $47471840.64, $55.78 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13070",
+    "632.44",
+    "438688"
+   ],
+   "expect": "The 13070 packs at $632.44 a pack come to $8265990.80, $18.84 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "65219",
+    "218.14",
+    "874648"
+   ],
+   "expect": "The 65219 packs at $218.14 a pack come to $14226872.66, $16.27 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38676",
+    "739.84",
+    "512084"
+   ],
+   "expect": "The 38676 packs at $739.84 a pack come to $28614051.84, $55.88 an attendee."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2925",
+    "228.97",
+    "696396"
+   ],
+   "expect": "The 2925 packs at $228.97 a pack come to $669737.25, $0.96 an attendee."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "836318",
+    "72"
+   ],
+   "expect": "The 836318 badges at 72 badges a minute take 11616 minutes, 193 hours 36 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "912558",
+    "22"
+   ],
+   "expect": "The 912558 badges at 22 badges a minute take 41480 minutes, 691 hours 20 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "746437",
+    "82"
+   ],
+   "expect": "The 746437 badges at 82 badges a minute take 9103 minutes, 151 hours 43 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "657598",
+    "30"
+   ],
+   "expect": "The 657598 badges at 30 badges a minute take 21920 minutes, 365 hours 20 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "469318",
+    "93"
+   ],
+   "expect": "The 469318 badges at 93 badges a minute take 5047 minutes, 84 hours 7 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "788985",
+    "78"
+   ],
+   "expect": "The 788985 badges at 78 badges a minute take 10116 minutes, 168 hours 36 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "338879",
+    "96"
+   ],
+   "expect": "The 338879 badges at 96 badges a minute take 3530 minutes, 58 hours 50 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "452370",
+    "36"
+   ],
+   "expect": "The 452370 badges at 36 badges a minute take 12566 minutes, 209 hours 26 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "576526",
+    "29"
+   ],
+   "expect": "The 576526 badges at 29 badges a minute take 19881 minutes, 331 hours 21 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "447917",
+    "54"
+   ],
+   "expect": "The 447917 badges at 54 badges a minute take 8295 minutes, 138 hours 15 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "924388",
+    "6"
+   ],
+   "expect": "The 924388 badges at 6 badges a minute take 154065 minutes, 2567 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "919065",
+    "6"
+   ],
+   "expect": "The 919065 badges at 6 badges a minute take 153178 minutes, 2552 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "762672",
+    "95"
+   ],
+   "expect": "The 762672 badges at 95 badges a minute take 8029 minutes, 133 hours 49 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "150470",
+    "28"
+   ],
+   "expect": "The 150470 badges at 28 badges a minute take 5374 minutes, 89 hours 34 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "83143",
+    "24"
+   ],
+   "expect": "The 83143 badges at 24 badges a minute take 3465 minutes, 57 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "224878",
+    "13"
+   ],
+   "expect": "The 224878 badges at 13 badges a minute take 17299 minutes, 288 hours 19 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "531222",
+    "80"
+   ],
+   "expect": "The 531222 badges at 80 badges a minute take 6641 minutes, 110 hours 41 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "394168",
+    "24"
+   ],
+   "expect": "The 394168 badges at 24 badges a minute take 16424 minutes, 273 hours 44 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "790650",
+    "95"
+   ],
+   "expect": "The 790650 badges at 95 badges a minute take 8323 minutes, 138 hours 43 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "packs",
+   [
+    "0",
+    "25"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "1000001",
+    "25"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "2.5",
+    "25"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "240",
+    "0"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "240",
+    "1001"
+   ]
+  ],
+  [
+   "lanyard",
+   [
+    "0",
+    "50"
+   ]
+  ],
+  [
+   "lanyard",
+   [
+    "240",
+    "0"
+   ]
+  ],
+  [
+   "lanyard",
+   [
+    "240",
+    "1001"
+   ]
+  ],
+  [
+   "lanyard",
+   [
+    "240",
+    "1.5"
+   ]
+  ],
+  [
+   "lanyard",
+   [
+    "1000001",
+    "50"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "240"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "240"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "10",
+    "0",
+    "240"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "10",
+    "12.755",
+    "240"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "10",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "240",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "240",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "240",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "8"
+   ]
+  ]
+ ]
+}
